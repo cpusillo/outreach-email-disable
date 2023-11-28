@@ -7,4 +7,4 @@ Some organizations attempt to mitigate the risk of lower deliverability due to s
 which domains are used for cold emailing.
 
 Outreach does not have native functionality to block users from sending from specific domains
-so this app will periodically check and update mailboxes as needed.
+so this app will periodically check and update mailboxes as needed.# outreach-email-disable
