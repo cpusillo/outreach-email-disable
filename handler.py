@@ -8,11 +8,11 @@ def main(event, context):
 
     def filter_mailbox_data(mailboxes):
         # Our handler should only work with mailboxes that fit these conditions:
-        # - heapanalytics.com email addresses with sending permissions on.
+        # - YOURDOMAIAN.com email addresses with sending permissions on.
         mailboxes = [
             m
             for m in mailboxes
-            if m.get("attributes").get("email").endswith("heapanalytics.com")
+            if m.get("attributes").get("email").endswith("YOURDOMAIN.com")
             if m.get("attributes").get("sendDisabled") == False
         ]
         return mailboxes
